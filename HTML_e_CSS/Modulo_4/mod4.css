@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.container{
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: #ccc;
+    color: #00ff00;
+}
+.container span strong{
+    color: red;
+}
+.box{
+    font-size: 20px;
+}
+.box-interno{
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+}
