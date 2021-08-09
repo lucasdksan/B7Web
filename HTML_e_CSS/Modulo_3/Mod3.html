@@ -8,23 +8,55 @@
     <title>B7Web</title>
 </head>
 <body>
-    <h1>Página de Teste</h1>
-    <h2>Área de Cadastro</h2>
-    <form action="">
-        <input type="text" name="user" id="">
-        <input type="submit" value="Fazer cadastro">
-        <select name="ordenação" id="">
-            <option></option>
-            <option value="last">Lucas</option>
-            <option value="10">Silva</option>
-        </select>
-    <h2>Área de login</h2>
-    <form action="">
-        <textarea name="" id="" cols="30" rows="10">
-            
-        </textarea>
-        <input type="text" >
-        <button type="submit"></button>
+    <!--
+        <h1>Página de Teste</h1>
+        <h2>Área de Cadastro</h2>
+        <form action="">
+            <input type="text" name="user" id="">
+            <input type="submit" value="Fazer cadastro">
+            <select name="ordenação" id="">
+                <option></option>
+                <option value="last">Lucas</option>
+                <option value="10">Silva</option>
+            </select>
+        <h2>Área de login</h2>
+        <form action="">
+            <textarea name="" id="" cols="30" rows="10">
+                
+            </textarea>
+            <label for="F">Femino</label>
+            <input type="radio" name="sexo" id="F">
+            <label for="M">Masculino</label>
+            <input type="radio" name="sexo" id="M">
+            <input type="text" >
+            <button type="submit"></button>
+        </form>
+    -->
+    <form method="GET">
+        <fieldset>
+            <input type="hidden" name="country" value="BR"/>
+            <legend>Dados Pessoais</legend>
+            <label for="">
+                Primeiro Nome: <br/>
+                <input type="text" name="name" required>
+            </label>
+            <label for="">
+                Sobrenome: <br/>
+                <input type="text" name="lastname" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label for="">
+                Nome da empresa: <br/>
+                <input type="text" name="companyname">
+            </label>
+            <label for="">
+                Cargo da empresa: <br/>
+                <input type="text" name="companyjobtitle">
+            </label>
+        </fieldset>
+        <input type="submit" value="Cadastrar">
     </form>
 </body>
 </html>
