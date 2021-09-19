@@ -1,0 +1,22 @@
+.botao{
+    background-color: #f0f;
+    color: indigo;
+    border: 0;
+    padding: 20px;
+}
+.gallery,
+.random,
+.allstarts{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
+.gallery{
+    background-image: url('./images/foto_1.jpg');
+}
+.random{
+    background-image: url('./images/foto_2.jpg');
+}
+.allstarts{
+    background-image: url('./images/foto_3.jpg');
+}

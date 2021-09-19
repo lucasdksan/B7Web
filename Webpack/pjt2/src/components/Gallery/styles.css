@@ -1,0 +1,9 @@
+.gallery{
+    width: 400px;
+    height: 250px;
+    background-image: url('../../assets/images/foto_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
