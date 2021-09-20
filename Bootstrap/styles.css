@@ -1,0 +1,10 @@
+.row [class^=col-], 
+.col{
+    background-color: indigo;
+    color: white;
+    border: 1px solid gray;
+}
+.row{
+    background-color: green;
+    padding: 20px;
+}
