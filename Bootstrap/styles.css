@@ -1,10 +1,29 @@
-.row [class^=col-], 
-.col{
-    background-color: indigo;
-    color: white;
-    border: 1px solid gray;
+body{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-.row{
-    background-color: green;
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.area{
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+.logo{
+    width: 100%;
+}
+.remember{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.gray{
+    color: #999;
+}
+.padding{
     padding: 20px;
 }
